@@ -25,10 +25,14 @@
                 <a>Patient</a>
                 <a onclick="toggle()">Doctor</a>
             </div>
-            <h2>Patient Login</h2>
+            <h2>Patient Signup</h2>
+            <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="Email" name="user">
             <input type="password" placeholder="Password" name="password">
             <input type="password" placeholder="Confirm Password" name="confirmpassword">
+            <input type="number" placeholder="height(cm)" name="height">
+            <input type="number" placeholder="weight(kg)" name="weight">
+            <input type="number" placeholder="age" name="age">
             <input type="submit">
         </form>
         <form
@@ -41,10 +45,13 @@
                 <a onclick="toggle()">Patient</a>
                 <a>Doctor</a>
             </div>
-            <h2>Doctor Login</h2>
+            <h2>Doctor Signup</h2>
+            <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="Email" name="user">
             <input type="password" placeholder="Password" name="password">
             <input type="password" placeholder="Confirm Password" name="confirmpassword">
+            <input type="text" placeholder="Designation" name="designation">
+            <input type="text" placeholder="Hospital" name="hospital">
             <input type="submit">
         </form>
         <!-- Optional JavaScript; choose one of the two! -->
@@ -59,11 +66,18 @@
       function toggle(){
         console.log(doctor.style.display)
         doctor=document.querySelector("#doctor");
+        patient=document.querySelector("#patient");
         if(doctor.style.display=='none' || doctor.style.display=='')
-          doctor.style.display='block';
+        {
+            doctor.style.display='block';
+            patient.style.display='none';
+        }
         else
-          doctor.style.display='none';
-        
+        {
+            doctor.style.display='none';
+            patient.style.display='block';
+        }
+          
       }
         </script>
     </body>

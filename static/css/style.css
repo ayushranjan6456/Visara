@@ -1132,9 +1132,9 @@ a:focus,
 a {
   color: #635c5c;
 }
-a:hover {
+/* a:hover {
   color: #fff;
-}
+} */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
