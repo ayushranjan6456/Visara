@@ -1,7 +1,35 @@
 from flask import Flask, url_for, redirect, render_template, url_for, session, logging, request
 import pyrebase
+import PyPDF2
+import requests
+
+
+URL = "https://api.meaningcloud.com/summarization-1.0"
 app = Flask(__name__)
 
+
+@app.route('/summarise')
+def summarise_form():
+    return render_template("summarise.html")
+
+
+@app.route('/summarise', methods = ['POST'])
+def summrise():
+    if request.method == 'POST':
+        f = request.files['file']  
+        f.save(f.filename)
+        pdfFileObj = open(f.filename, 'rb')
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        print(pdfReader.numPages)
+        pageObj = pdfReader.getPage(0)
+        x=pageObj.extractText()
+        txt=x
+        key="73753b7cbc31fb6c4969cdd4f428d58d"
+        sentences=6
+        PARAMS = {"key":key,"txt":txt, "sentences":sentences}
+        r = requests.get(url = URL, params = PARAMS)
+        data = r.json()
+        return render_template("summarise.html", name=data['summary'])
 
 firebaseConfig = {
     'apiKey': "AIzaSyDubGncgvqCMzWktTMOChPntjfgMITmTcc",
@@ -189,6 +217,24 @@ def report():
     report=int_features[1]
     db.child("Patient").child(name).update({"report":report})
     return redirect('/view_patients')
+
+@app.route('/patientreport', methods=['POST','GET'])
+def patientreport():
+    int_features=[x for x in request.form.values()]
+    print(int_features)
+    name=int_features[0]
+    details = db.child("Patient").child(name).get()
+    patient=details.val()
+    return render_template('report.html', name=name, x=patient)
+
+@app.route('/recommend', methods=['POST','GET'])
+def recommend():
+    int_features=[x for x in request.form.values()]
+    print(int_features)
+    name=int_features[0]
+    details = db.child("Patient").child(name).get()
+    dr=(details.val()['dr'])
+    return render_template('posebots.html', name=name, dr=dr)
 
 
 

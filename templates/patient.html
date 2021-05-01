@@ -64,6 +64,7 @@
                 </div>
             </div>
         </header>
+        
         <div class="slider-area ">
             <div class="single-sliders slider-height   d-flex align-items-center">
                 <div class="container position-relative">
@@ -89,7 +90,11 @@
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
-                                            <a href="/posebots">Yoga Pose Detection</a>
+                                            <form action="/recommend" method="post" style="top:100px;position:absolute">
+                                                <input type="text" name="name" value="{{name}}" style="display: none;">
+                                                <button style="position: absolute; top:-38px; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Yoga Bot</button>
+                                            </form>
+                                            <a href="/posebots" style="visibility: hidden;">Yoga Bot</a>
                                         </h5>
                                         <p>Your personalised Yoga bot for pose detection and tracking of your exercises.</p>
                                     </div>
@@ -102,9 +107,13 @@
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
-                                            <a href="#">Doctor Consultation</a>
+                                            <form action="/patientreport" method="post" style="top:100px;position:absolute">
+                                                <input type="text" name="name" value="{{name}}" style="display: none;">
+                                                <button style="position: absolute; top:-38px; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Doctor Consultation</button>
+                                            </form>
+                                            <a href="/" style="visibility: hidden;">Doctor Consultation</a>
                                         </h5>
-                                        <p>A platform to take appointment and interact with the doctors.</p>
+                                        <p>A platform to view the personalised recommendations of the doctors.</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +124,11 @@
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
-                                            <a href="#">Report Summariser</a>
+                                            <!-- <form action="/summarise" method="post" style="top:100px;position:absolute">
+                                                <input type="text" name="name" value="{{name}}" style="display: none;">
+                                                <button style="position: absolute; top:-38px; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Report Summariser</button>
+                                            </form> -->
+                                            <a href="/summarise" >Report Summariser</a>
                                         </h5>
                                         <p>Medical Reports can perplex common people, this feature simplifies the problem.</p>
                                     </div>
