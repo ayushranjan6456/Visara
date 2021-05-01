@@ -2,11 +2,24 @@
 
 # Important Links 
 - [Colab file for blindness in 70 months prediction](https://colab.research.google.com/drive/1ZYCiKwTzFD6Jwu2VyxBS42mLqRS1x0Mb?usp=sharing)
-- [Colab file for Diabetic retinopathy prediction](https://colab.research.google.com/drive/1Lo_kXwBiREveQ-P584Vp4HUyXm8vBmz4?usp=sharing)
 - [Blindness Deployed Code(NGROK)](https://colab.research.google.com/drive/1gNqGtGATPIklXvfptHzz2-4sDzFU-k66?usp=sharing)
+  * Last Working Local Proxy Link: [Blindness Prognosis](http://c5e0d3d249fe.ngrok.io/)
+  * In case link doesn't work, follow these steps: 
+    - Upload `coxnetTR.pkl` and `coxnetUT.pkl` model files to your drive 
+    - Import these model files and run the above colab file
+- [Colab file for Diabetic retinopathy prediction](https://colab.research.google.com/drive/1Lo_kXwBiREveQ-P584Vp4HUyXm8vBmz4?usp=sharing)
 - [Diabetic-Retinopathy-Prediction(NGROK)](https://colab.research.google.com/drive/19jGOLhsaLr_ERiFcE1siSdyaGQpHxg4A?usp=sharing)
+  * To run the ngrok file, create .h5 model from [Colab file for Diabetic retinopathy prediction](https://colab.research.google.com/drive/1Lo_kXwBiREveQ-P584Vp4HUyXm8vBmz4?usp=sharing)
+  * Then follow these steps:  
+    - Upload `d5_weights.h5` model files to your drive 
+    - Import these model files and run the above colab file
+   
+<strong>  
+ 
 - [Link to website](https://visara.herokuapp.com/)
 - [Demo Video](https://youtu.be/gAO9ll9_C1Y)
+
+</strong> 
 
 # Application images
 ## Landing Page
