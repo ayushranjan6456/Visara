@@ -18,11 +18,16 @@
 ![image](https://user-images.githubusercontent.com/63183513/116790819-ffb7f780-aad3-11eb-95e5-e9a56e8a3f6c.png)
 ## Sign Up 
 ![image](https://user-images.githubusercontent.com/63183513/116790971-d2b81480-aad4-11eb-8579-8c5df7e32ebc.png)
+## Diabetic Retinopathy Prediction
+
+## Blindness Prognosis
+
 ## Patient Dashboard
 ![image](https://user-images.githubusercontent.com/63183513/116790823-08103280-aad4-11eb-82fd-5564a4eec8db.png)
 ## Yoga Asanas
 ![image](https://user-images.githubusercontent.com/63183513/116790831-15c5b800-aad4-11eb-95f8-a9dc83ea9426.png)
 ## Yoga Tracker
+![image](https://user-images.githubusercontent.com/59837325/116791146-06476e80-aad6-11eb-9ba1-e2e4ccf0d81f.png)
 
 ## Doctor Login
 
