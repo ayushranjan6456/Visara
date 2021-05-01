@@ -13,8 +13,8 @@ def summarise_form():
     return render_template("summarise.html")
 
 
-@app.route('/summarise', methods = ['POST'])
-def summrise():
+@app.route('/summarisePDF', methods = ['POST'])
+def summrisePDF():
     if request.method == 'POST':
         f = request.files['file']  
         f.save(f.filename)
@@ -25,7 +25,20 @@ def summrise():
         x=pageObj.extractText()
         txt=x
         key="73753b7cbc31fb6c4969cdd4f428d58d"
-        sentences=6
+        sentences=3
+        PARAMS = {"key":key,"txt":txt, "sentences":sentences}
+        r = requests.get(url = URL, params = PARAMS)
+        data = r.json()
+        return render_template("summarise.html", name=data['summary'])
+
+@app.route('/summarise', methods = ['POST'])
+def summrise():
+    if request.method == 'POST':
+        int_features=[x for x in request.form.values()]
+        print(int_features)
+        txt=int_features[0]
+        key="73753b7cbc31fb6c4969cdd4f428d58d"
+        sentences=3
         PARAMS = {"key":key,"txt":txt, "sentences":sentences}
         r = requests.get(url = URL, params = PARAMS)
         data = r.json()
