@@ -1,5 +1,12 @@
 # Visara
 
+# All links needed
+- [Colab file for blindness in 70 months prediction](https://colab.research.google.com/drive/1ZYCiKwTzFD6Jwu2VyxBS42mLqRS1x0Mb?usp=sharing)
+- [Colab file for Diabetic retinopathy prediction](https://colab.research.google.com/drive/1Lo_kXwBiREveQ-P584Vp4HUyXm8vBmz4?usp=sharing)
+- [Blindness Deployed Code(NGROK)](https://colab.research.google.com/drive/1gNqGtGATPIklXvfptHzz2-4sDzFU-k66?usp=sharing)
+- [Diabetic-Retinopathy-Prediction(NGROK)](https://colab.research.google.com/drive/19jGOLhsaLr_ERiFcE1siSdyaGQpHxg4A?usp=sharing)
+- [Link to website](https://visara.herokuapp.com/)
+
 # Inspiration ✨
 
 Diabetes is a devastating health condition. Over 84% of patients are unaware that they have diabetes, and this is huge because there lacks an objective assessment tool for automated detection. Diabetic Retinopathy is an eye condition that can cause vision loss and blindness in people who have diabetes. Diabetic Retinopathy must be diagnosed both quickly and accurately; however, the inconsistency between clinicians exacerbates the current poor treatment of DR. Currently, detecting DR is a very time-consuming task, which requires a trained clinician to evaluate the retina. In addition to this, diagnosing patients can be extremely inconsistent amongst ophthalmologists and our severity predictor ensures an objective and quick assessment of DR. To counter the detrimental effects of diabetic retinopathy and lack of consistency from clinician diagnosis, we present to you, the Visara.
