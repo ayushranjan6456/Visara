@@ -121,3 +121,24 @@ body {
   #doctor{
     display: none;
   }
+
+  
+.tabs{
+  padding:20px 30px 10px 30px ;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color:#12072b;
+  font-weight: 600;
+  background-color: rgb(207, 207, 207);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+
+form h2{
+  padding-top: 30px;
+}

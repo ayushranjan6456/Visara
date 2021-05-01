@@ -22,10 +22,11 @@
             method="POST"
         >
             <div>
-                <a>Patient</a>
-                <a onclick="toggle()">Doctor</a>
+                <a class="tabs">Patient</a>
+                <a class="tabs" onclick="toggle()">Doctor</a>
             </div>
             <h2>Patient Login</h2>
+            <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="Email" name="user">
             <input type="password" placeholder="Password" name="password">
             <input type="submit">
@@ -37,10 +38,11 @@
             method="POST"
         >
             <div>
-                <a onclick="toggle()">Patient</a>
-                <a>Doctor</a>
+                <a class="tabs" onclick="toggle()">Patient</a>
+                <a class="tabs">Doctor</a>
             </div>
             <h2>Doctor Login</h2>
+            <input type="text" placeholder="Name" name="name">
             <input type="text" placeholder="Email" name="user">
             <input type="password" placeholder="Password" name="password">
             <input type="submit">
