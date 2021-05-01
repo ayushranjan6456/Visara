@@ -70,4 +70,23 @@ Diabetic Retinopathy (DR) severity prediction, blindness time prediction, and a 
 
 - Connect the patient with the doctor using a messaging feature. 
 - Diet Planner according to the patient stats. 
-- Keeping a track of patient exercise and diet history stats using IOT devices.  
+- Keeping a track of patient exercise and diet history stats using IOT devices.
+
+Business Model
+
+Executive summary: Our web app predicts whether a person will undergo the condition of Diabetic Retinopathy, if yes then what is the duration along with suggesting yoga asanas and connecting your reports with your preferred doctor to combat the disease naturally.
+
+Business Opportunity: Diabetic retinopathy is the leading cause of blindness in working-age adults ages 20–74, also the whole covid and social distancing situation favors a healthcare model which is digital at its core similar to ours. 
+
+Marketing Strategy: At the early stage apart from different digital marketing strategies our first aim would be to set up a good repo with the doctors who treat such patients by automating the process of detection and cure which will be the main point to attract these doctors to recommend or treat their patients through our platform.
+
+Competition: Some orthodox doctors would cause a hindrance in making our platform attractive in the market but we are hopeful that technology will overcome stereotyping.
+
+Goals: Since recent times forbid us to leave our houses this would be the best time to get a grip over a market where it so prevalent that around 93 million adults are affected by it on a global scale. According to a recently conducted survey, almost 63% of Indians are not even aware that diabetes has a hazardous effect on the eye apart from other body parts. 92% of diabetics underwent retinal analysis after having their vision affected. So the main goal would be to alert people at early stages so that they can take up necessary steps just like in the case of cancer where a person is able to save his/her vision to live a healthy life.
+
+Revenue generation: Ways to generate revenue from our system:
+1. Create a customer-based service that gives them insights to keep them engaged with the platform.
+
+2. Offer a service where a separate database is offered to a particular clinic so that they can monitor the situation of their clients and transfer information easily and save time for the doctor on unnecessary visits by the patients.
+
+3. As we develop and optimize our product, we can provide a separate health consultancy service to help the clients stay fit through practicing yoga asanas.  
