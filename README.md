@@ -7,6 +7,29 @@
 - [Diabetic-Retinopathy-Prediction(NGROK)](https://colab.research.google.com/drive/19jGOLhsaLr_ERiFcE1siSdyaGQpHxg4A?usp=sharing)
 - [Link to website](https://visara.herokuapp.com/)
 
+# Implementation images: Review 2
+## Landing Page
+![image](https://user-images.githubusercontent.com/63183513/116790780-c2ec0080-aad3-11eb-889b-30d5e7a043a5.png)
+## Services
+![image](https://user-images.githubusercontent.com/63183513/116790786-d26b4980-aad3-11eb-8b99-c06d9e0aeb20.png)
+## Why choose us
+![image](https://user-images.githubusercontent.com/63183513/116790800-e31bbf80-aad3-11eb-938e-dd7608e19cb3.png)
+## Login
+![image](https://user-images.githubusercontent.com/63183513/116790819-ffb7f780-aad3-11eb-95e5-e9a56e8a3f6c.png)
+## Sign Up 
+![image](https://user-images.githubusercontent.com/63183513/116790971-d2b81480-aad4-11eb-8579-8c5df7e32ebc.png)
+## Patient Dashboard
+![image](https://user-images.githubusercontent.com/63183513/116790823-08103280-aad4-11eb-82fd-5564a4eec8db.png)
+## Yoga Asanas
+![image](https://user-images.githubusercontent.com/63183513/116790831-15c5b800-aad4-11eb-95f8-a9dc83ea9426.png)
+## Yoga Tracker
+
+## Doctor Login
+
+## Doctor Dashboard
+
+## Report Summarizer
+
 # Inspiration ✨
 
 Diabetes is a devastating health situation. Over 84% of sufferers are unaware that they've diabetes, and that is largely due to the fact there lacks a goal evaluation device for computerized detection. Diabetic Retinopathy is a eye situation that could purpose imaginative and prescient loss and blindness in human beings who've diabetes. Diabetic Retinopathy should be identified quickly and accurately, however, the inconsistency among clinicians exacerbates the cutting-edge negative remedy of DR. Currently, detecting DR is a totally time-ingesting task, which calls for an educated clinician to assess the retina. In addition to this, diagnosing sufferers may be extraordinarily inconsistent among ophthalmologists and our severity predictor guarantees a goal and brief evaluation of DR. To counter the adverse consequences of diabetic retinopathy and absence of consistency from clinician diagnosis, we present to you, the Visara.
