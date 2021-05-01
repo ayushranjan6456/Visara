@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 from glob import glob
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, BatchNormalization, Dropout
+from keras.layers import Dropout, Conv2D, MaxPooling2D, Dense, Flatten, BatchNormalization
 from sklearn.model_selection import train_test_split
 
 path = "/content/resized_train_cropped/resized_train_cropped"
@@ -57,11 +57,11 @@ train, val = train_test_split(data, test_size=0.15)
 train.shape, val.shape
 
 import cv2
-def load_ben_color(image):
-    IMG_SIZE = 224
-    sigmaX=10
-    image = cv2.resize(image, (IMG_SIZE, IMG_SIZE))
-    image=cv2.addWeighted ( image,4, cv2.GaussianBlur( image , (0,0) , sigmaX) ,-4 ,128)
+def load_color(image):
+    image_size = 224
+    sigma_X=10
+    image = cv2.resize(image, (image_size, image_size))
+    image=cv2.addWeighted ( image,4, cv2.GaussianBlur( image , (0,0) , sigma_X) ,-8 ,128)
     return image
 
 data_gen = ImageDataGenerator(rescale=1/255.,
@@ -70,7 +70,7 @@ data_gen = ImageDataGenerator(rescale=1/255.,
                               cval=0.,
                               horizontal_flip=True,
                               vertical_flip=True,
-                              preprocessing_function=load_ben_color)
+                              preprocessing_function=load_color)
 
 # batch size
 bs = 128
@@ -113,7 +113,7 @@ model.summary()
 
 from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
 
-mmodel_history = model.fit(train_gen, steps_per_epoch=int(29842/128), epochs=2,  validation_data=val_gen, validation_steps=int(5266/128))
+model_history = model.fit(train_gen, steps_per_epoch=int(29842/128), epochs=2,  validation_data=val_gen, validation_steps=int(5266/128))
 
 #SAVING WEIGHTS
 
@@ -121,22 +121,22 @@ model.save('dr_weights.h5')
 
 #MODEL
 
-accNT = mmodel_history.history['accuracy']
-val_accNT = mmodel_history.history['val_accuracy']
-lossNT = mmodel_history.history['loss']
-val_lossNT = mmodel_history.history['val_loss']
-epochsNT = range(len(accNT))
+accuracyNT = model_history.history['accuracy']
+validation_accuracyNT = model_history.history['val_accuracy']
+loss_NT = model_history.history['loss']
+validation_loss_NT = model_history.history['val_loss']
+epochsNT = range(len(accuracyNT))
 
-plt.plot(epochsNT, accNT, 'r', label='Training accuracy')
-plt.plot(epochsNT, val_accNT, 'b', label='Validation accuracy')
+plt.plot(epochsNT, accuracyNT, 'r', label='Training accuracy')
+plt.plot(epochsNT, validation_accuracyNT, 'b', label='Validation accuracy')
 plt.title('Training and validation accuracy')
 plt.legend(loc=0)
 plt.figure()
 
 plt.show()
 
-plt.plot(epochsNT, lossNT, 'r', label='Training loss')
-plt.plot(epochsNT, val_lossNT, 'b', label='Validation loss')
+plt.plot(epochsNT, loss_NT, 'r', label='Training loss')
+plt.plot(epochsNT, validation_loss_NT, 'b', label='Validation loss')
 plt.title('Training and validation loss')
 plt.legend(loc=0)
 plt.figure()
