@@ -1,4 +1,7 @@
-# Visara
+# Visara 
+<h3 style="text-align: center;">Using the power of data science and artificial intelligence in the healthcare industry.
+</h3>
+
 
 # Important Links 
 - [Colab file for blindness in 70 months prediction](https://colab.research.google.com/drive/1ZYCiKwTzFD6Jwu2VyxBS42mLqRS1x0Mb?usp=sharing)
@@ -39,7 +42,8 @@
 ![image](https://user-images.githubusercontent.com/59837325/116795427-7fed5580-aaf2-11eb-964b-4a5c2d9c720b.png)
 ## Patient Dashboard
 ![image](https://user-images.githubusercontent.com/59837325/116795437-a90de600-aaf2-11eb-8321-4b27acff2200.png)
-## Yoga Asanas
+## Yoga Asanas![logo](https://user-images.githubusercontent.com/59837325/116796580-2d646700-aafb-11eb-84d3-5350e5c623a5.png)
+
 ![image](https://user-images.githubusercontent.com/59837325/116795476-e5d9dd00-aaf2-11eb-9d89-d1390f5e8578.png)
 ## Yoga Tracker
 ![image](https://user-images.githubusercontent.com/59837325/116791146-06476e80-aad6-11eb-9ba1-e2e4ccf0d81f.png)
