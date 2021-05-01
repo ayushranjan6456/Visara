@@ -15,25 +15,26 @@
 ## Why choose us
 ![image](https://user-images.githubusercontent.com/63183513/116790800-e31bbf80-aad3-11eb-938e-dd7608e19cb3.png)
 ## Login
-![image](https://user-images.githubusercontent.com/63183513/116790819-ffb7f780-aad3-11eb-95e5-e9a56e8a3f6c.png)
+![image](https://user-images.githubusercontent.com/63183513/116793028-ee75e780-aae1-11eb-8c89-7624e3dcbaf3.png)
 ## Sign Up 
 ![image](https://user-images.githubusercontent.com/63183513/116790971-d2b81480-aad4-11eb-8579-8c5df7e32ebc.png)
 ## Diabetic Retinopathy Prediction
-
+![image](https://user-images.githubusercontent.com/63183513/116793050-03527b00-aae2-11eb-80a4-f4467d8b7fc6.png)
+![image](https://user-images.githubusercontent.com/63183513/116793052-08172f00-aae2-11eb-82c9-911b85bf2f43.png)
 ## Blindness Prognosis
 
 ## Patient Dashboard
 ![image](https://user-images.githubusercontent.com/63183513/116790823-08103280-aad4-11eb-82fd-5564a4eec8db.png)
 ## Yoga Asanas
-![image](https://user-images.githubusercontent.com/63183513/116790831-15c5b800-aad4-11eb-95f8-a9dc83ea9426.png)
+![image](https://user-images.githubusercontent.com/63183513/116793164-a4413600-aae2-11eb-96ae-9ec55347bf58.png)
 ## Yoga Tracker
 ![image](https://user-images.githubusercontent.com/59837325/116791146-06476e80-aad6-11eb-9ba1-e2e4ccf0d81f.png)
-
 ## Doctor Login
-
+![image](https://user-images.githubusercontent.com/63183513/116793125-68a66c00-aae2-11eb-9353-2657e4b52ab3.png)
 ## Doctor Dashboard
-
+![image](https://user-images.githubusercontent.com/63183513/116793083-3bf25480-aae2-11eb-82d9-5b9ed0c2a9b5.png)
 ## Report Summarizer
+![image](https://user-images.githubusercontent.com/63183513/116793098-4876ad00-aae2-11eb-9e44-c521659682b6.png)
 
 # Inspiration ✨
 
