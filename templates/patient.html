@@ -73,11 +73,11 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="single-cat text-center mb-50">
                                     <div class="cat-icon">
-                                        <img src="{{ url_for('static', filename='img/icon/services1.svg') }}" alt="">
+                                        <img style="height:100px" src="{{ url_for('static', filename='img/icon/eye.png') }}" alt="">
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
-                                            <a href="#">Diabetic Retinography</a>
+                                            <a href="#" style="font-weight: 600;">Diabetic Retinography</a>
                                         </h5>
                                         <p>Prediction and Intuitive Visualisations for Diabetic Retinography.</p>
                                     </div>
@@ -86,13 +86,13 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="single-cat text-center mb-50">
                                     <div class="cat-icon">
-                                        <img src="{{ url_for('static', filename='img/icon/services2.svg') }}" alt="">
+                                        <img style="height:100px" src="{{ url_for('static', filename='img/icon/heart-rate.png') }}" alt="">
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
                                             <form action="/recommend" method="post" style="top:100px;position:absolute">
                                                 <input type="text" name="name" value="{{name}}" style="display: none;">
-                                                <button style="position: absolute; top:-38px; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Yoga Bot</button>
+                                                <button style="font-weight: 600; position: absolute; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Yoga Bot</button>
                                             </form>
                                             <a href="/posebots" style="visibility: hidden;">Yoga Bot</a>
                                         </h5>
@@ -103,13 +103,13 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="single-cat text-center mb-50">
                                     <div class="cat-icon">
-                                        <img src="{{ url_for('static', filename='img/icon/services3.svg') }}" alt="">
+                                        <img style="height:100px" src="{{ url_for('static', filename='img/icon/caduceus.png') }}" alt="">
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
                                             <form action="/patientreport" method="post" style="top:100px;position:absolute">
                                                 <input type="text" name="name" value="{{name}}" style="display: none;">
-                                                <button style="position: absolute; top:-38px; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Doctor Consultation</button>
+                                                <button style="font-weight: 600; position: absolute; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Doctor Consultation</button>
                                             </form>
                                             <a href="/" style="visibility: hidden;">Doctor Consultation</a>
                                         </h5>
@@ -120,7 +120,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="single-cat text-center mb-50">
                                     <div class="cat-icon">
-                                        <img src="{{ url_for('static', filename='img/icon/services3.svg') }}" alt="">
+                                        <img style="height:100px" src="{{ url_for('static', filename='img/icon/medical-report.png') }}" alt="">
                                     </div>
                                     <div class="cat-cap">
                                         <h5>
@@ -128,7 +128,7 @@
                                                 <input type="text" name="name" value="{{name}}" style="display: none;">
                                                 <button style="position: absolute; top:-38px; width: 250px; color: #232F55; border: none; background-color: rgba(255, 255, 255, 0); cursor: pointer;">Report Summariser</button>
                                             </form> -->
-                                            <a href="/summarise" >Report Summariser</a>
+                                            <a href="/summarise" style="" >Report Summariser</a>
                                         </h5>
                                         <p>Medical Reports can perplex common people, this feature simplifies the problem.</p>
                                     </div>
