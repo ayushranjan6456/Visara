@@ -45,15 +45,15 @@ def summrise():
         return render_template("summarise.html", name=data['summary'])
 
 firebaseConfig = {
-    'apiKey': "AIzaSyDubGncgvqCMzWktTMOChPntjfgMITmTcc",
-    'authDomain': "visara-5a513.firebaseapp.com",
-    'projectId': "visara-5a513",
-    'storageBucket': "visara-5a513.appspot.com",
-    'messagingSenderId': "582687989459",
-    'appId': "1:582687989459:web:7e005b599c09faa8a93e26",
-    'measurementId': "G-0NY6VG8PBT",
-    "databaseURL" : "https://visara-5a513-default-rtdb.asia-southeast1.firebasedatabase.app/"
-    }
+  "apiKey": "AIzaSyDk56Hua9ZzZc6udCTFwPs8Xa63UQ-bUK0",
+  "authDomain": "visaara-raamen.firebaseapp.com",
+  "databaseURL": "https://visaara-raamen-default-rtdb.firebaseio.com",
+  "projectId": "visaara-raamen",
+  "storageBucket": "visaara-raamen.appspot.com",
+  "messagingSenderId": "103549053112",
+  "appId": "1:103549053112:web:16301f279759f2eb72ac4d",
+  "measurementId": "G-SWB86SGNNM"
+}
 firebase=pyrebase.initialize_app(firebaseConfig)
 auth=firebase.auth()
 db=firebase.database()
